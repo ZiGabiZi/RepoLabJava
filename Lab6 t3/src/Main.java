@@ -1,4 +1,6 @@
 import task3.*;
+//Pentru realizarea problemei am folosit design patternul Strategy
+
 
 public class Main {
     public static void main(String[] args) {
@@ -16,7 +18,6 @@ public class Main {
         store.addTransaction(client2);
         store.addTransaction(client3);
 
-        // Executarea tranzacțiilor
         store.executeTransactions();
     }
 }
